@@ -34,10 +34,6 @@ object LyricsRepository {
         _uiState.update { it.copy(manualLyrics = text) }
     }
 
-    fun setDisplayAvailability(available: Boolean) {
-        _uiState.update { it.copy(hasPresentationDisplay = available) }
-    }
-
     fun updateDisplays(
         hasPresentationDisplay: Boolean,
         activeDisplayName: String?,
