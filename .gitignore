@@ -1,0 +1,12 @@
+.gradle/
+.local-tools/
+build/
+app/build/
+local.properties
+*.apk
+*.aab
+*.ap_
+captures/
+.idea/
+*.iml
+gcm-diagnose.log
